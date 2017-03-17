@@ -131,7 +131,7 @@ def turn_off():
     gpio.output(15, gpio.HIGH)
 
 def log_temp():
-    db = mysql.connect(host="10.4.20.254", user="thermo", passwd="thermo", db="thermostat")
+    db = mysql.connect(host="XXX.XXX.XXX.XXX", user="XXXXXX", passwd="XXXXXX", db="XXXXXX")
 
     cursor = db.cursor()
 
