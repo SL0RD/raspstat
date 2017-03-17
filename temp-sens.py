@@ -26,10 +26,6 @@ SETTINGS = None
 
 
 def setup_GPIO():
-    global BOARD_MODE
-    global PIN_HEAT
-    global PIN_RED_LED
-    global PIN_GREEN_LED
 
     print "Setting up GPIO"
     gpio.setwarnings(False)
